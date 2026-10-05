@@ -3,13 +3,13 @@ import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: '/AI-Powered-Disaster-Rescue-System/',
   plugins: [
-    // base:'/AI-Powerd-Disaster-Rescue-System/'
     tailwindcss(),
     react(),
-    babel({ presets: [reactCompilerPreset()] })
+    babel({
+      presets: [reactCompilerPreset()],
+    }),
   ],
 })
-
