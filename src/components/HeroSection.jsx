@@ -18,7 +18,7 @@ export default function HeroSection({ onOpenReport, onOpenShelters, onScrollToRa
       {/* Flood & Cyclone Rescue Illustration Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/disaster-rescue-hero.jpg"
+          src={`${import.meta.env.BASE_URL}disaster-rescue-hero.jpg`}
           alt="AI-Powered Disaster Rescue Operation in Flood and Cyclone"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:transition-transform motion-safe:duration-10000 motion-safe:hover:scale-100"
         />

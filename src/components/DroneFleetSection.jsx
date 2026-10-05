@@ -21,7 +21,7 @@ export default function DroneFleetSection({ onOpenReport }) {
       name: 'Amphibious Rescue Hovercraft HC-01',
       callsign: 'VALIANT-1',
       type: 'WATER EXTRACTION CRAFT',
-      image: '/fleet-hovercraft.jpg',
+      image: `${import.meta.env.BASE_URL}fleet-hovercraft.jpg`,
       role: 'Navigating inundated urban streets, fast currents, and debris-filled flood channels.',
       specs: {
         payload: '12 Survivors + 4 Crew',
@@ -38,7 +38,7 @@ export default function DroneFleetSection({ onOpenReport }) {
       name: 'SkyGuard Thermal AI Drone D-04',
       callsign: 'NIGHTHAWK-4',
       type: 'AERIAL RECON & SURVIVOR LOCATOR',
-      image: '/feat-drone-medical.jpg',
+      image: `${import.meta.env.BASE_URL}feat-drone-medical.jpg`,
       role: 'Continuous aerial patrol with FLIR infrared cameras detecting human heat signatures through rain.',
       specs: {
         payload: 'Emergency Beacon Dropper',
@@ -55,7 +55,7 @@ export default function DroneFleetSection({ onOpenReport }) {
       name: 'Heavy-Lift Supply Quad X-08',
       callsign: 'LIFELINE-8',
       type: 'AUTONOMOUS AIRDROP DRONE',
-      image: '/fleet-supply-quad.jpg',
+      image: `${import.meta.env.BASE_URL}fleet-supply-quad.jpg`,
       role: 'Rapid precision delivery of inflatable life rafts, emergency rations, and trauma medical packs.',
       specs: {
         payload: '65 kg Heavy Medical Kit & Rafts',

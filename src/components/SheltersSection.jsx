@@ -18,7 +18,7 @@ export default function SheltersSection({ onOpenSheltersModal }) {
       name: 'Highland Sports Arena (Safe Haven Alpha)',
       tag: 'REGIONAL MEGA-SHELTER',
       elevation: '+48m (High Ground)',
-      image: '/feat-shelter-find.jpg',
+      image: `${import.meta.env.BASE_URL}feat-shelter-find.jpg`,
       distance: '1.4 km away',
       address: '74 Ridge Crest Way, Sector 2 Highland',
       occupied: 412,

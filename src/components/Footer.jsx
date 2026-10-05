@@ -117,7 +117,7 @@ export default function Footer({ onOpenReport, onOpenShelters }) {
             <div className="flex items-center gap-3">
               <div className="relative flex items-center justify-center w-12 h-12 rounded-xl overflow-hidden border border-red-500/40 shadow-lg shadow-red-500/20 bg-slate-950">
                 <img 
-                  src="/disaster-rescue-logo.jpg" 
+                  src={`${import.meta.env.BASE_URL}disaster-rescue-logo.jpg`} 
                   alt="Disaster Rescue AI Logo" 
                   className="w-full h-full object-cover"
                 />
